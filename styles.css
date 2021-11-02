@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 .main_logo{
@@ -15,13 +16,15 @@ h2{
 }
 .aboutus_container{
     background-color:#ebf1e9;
-    height: 400px;
+    height: max-content;
+    padding-bottom: 5%;
+}
+.about_content{
+    text-align: center;
+    margin-top: 5%;
 }
 .Industries{
    display:flex;
    justify-content: center;
-  
    column-gap: 40px;
- 
-
 }
