@@ -2,6 +2,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.main_logo{
+    width: 50%; 
+    display: block; 
+    margin: auto; 
+    margin-top: -5%;
+}
 h2{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top:5%;
+}
+.aboutus_container{
+    background-color:#ebf1e9;
+    height: 400px;
+}
+.Industries{
+   display:flex;
+   justify-content: center;
+  
+   column-gap: 40px;
+ 
+
 }
