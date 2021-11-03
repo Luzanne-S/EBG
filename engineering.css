@@ -9,3 +9,13 @@ body{
     margin-left: 17%;
     margin-top: -15%;
 }
+.phone{
+    line-height: 1px;
+}
+
+footer{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-left: 20%; 
+}
