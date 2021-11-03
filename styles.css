@@ -4,10 +4,11 @@ body{
 }
 
 .main_logo{
-    width: 50%; 
+    width: 70%; 
     display: block; 
-    margin: auto; 
-    margin-top: -5%;
+    margin: auto;
+    margin-left: 17%;
+    margin-top: -15%;
 }
 h2{
     font-family: 'Raleway', sans-serif;
@@ -28,3 +29,5 @@ h2{
    justify-content: center;
    column-gap: 40px;
 }
+
+
