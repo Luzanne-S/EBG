@@ -30,4 +30,12 @@ h2{
    column-gap: 40px;
 }
 
-
+.phone{
+    line-height: 1px;
+}
+footer{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-left: 20%; 
+}
