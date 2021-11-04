@@ -12,6 +12,19 @@ body{
 .phone{
     line-height: 1px;
 }
+
+.container-fluid{
+ margin-top:-1% ;
+text-align: center;
+padding-left: 20%;
+}
+
+.col1{
+    margin-left: 15%;
+}
+.icon{
+    color:#73ecb2;
+}
 footer{
     width:80%;
     margin: auto;
