@@ -8,11 +8,15 @@ body{
     margin: auto;
     margin-left: 17%;
     margin-top: -15%;
+    margin-bottom: -15%;
 }
 .phone{
     line-height: 1px;
 }
 
+h3{
+    text-align: center;
+}
 .container-fluid{
 margin-top: 5%;
 text-align: center;
