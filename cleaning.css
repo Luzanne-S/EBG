@@ -15,7 +15,9 @@ body{
 }
 
 h3{
-    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 .container-fluid{
 margin-top: 5%;
@@ -42,6 +44,10 @@ list-style: none;
 }
 .container-fluid_socialMedia{
     margin-top: 5%;
+}
+#window{
+    width:50%;
+    height:50%;
 }
 footer{
     width:80%;
