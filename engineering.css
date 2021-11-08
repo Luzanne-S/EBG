@@ -3,16 +3,37 @@ body{
     font-weight: 600;
 }
 .main_logo{
-    width: 70%; 
+    width: 70%;
+    height: 50%; 
     display: block; 
     margin: auto;
     margin-left: 17%;
     margin-top: -15%;
 }
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
 .phone{
     line-height: 1px;
 }
-
+.acdc{
+    margin: auto;
+}
+.transformers{
+    margin-top: 2%;
+  float:right;
+  margin-right: 5%;
+}
+.other{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+ul{
+list-style: none;
+}
 footer{
     width:80%;
     margin: auto;
