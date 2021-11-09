@@ -32,10 +32,10 @@
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#inquire">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link "href="#">Contact Us</a>
+                <a class="nav-link "href="#cta">Contact Us</a>
               </li>
             </ul> 
           </div>
@@ -81,7 +81,7 @@
 </div>
 </div>
 <!--Services-->
-<div class="container-fluid service">
+<div id="inquire" class="container-fluid service">
   <div class="row">
     <div class="col">
   <img src="image/pexels-karolina-grabowska-4239042.jpg" class="rounded-circle float-start clean_img1" alt="...">
@@ -114,7 +114,39 @@
       Garden Services
     </li>
   </ul>
-  <button type="button" class="btn btn-outline-success">Inquire Now</button>
+  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Inquire Now</button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Inquire Now</h5>
+          <button type="button" class="btn btn-outline-success" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+          <form action="mailto:cleaners@ebggroup.co.za" method="get" enctype="text/plain">
+            <div>
+              <label for="name">Name:
+                <input type="text"class="form-control" name="name" id="name" required />
+              </label>
+            </div>
+            <div>
+              <label for="email">Email:
+                <input type="text"class="form-control" name="email" id="email"  required />
+              </label>
+            </div>
+            <div>
+              <label>Message:</label>
+              <br />
+              <textarea name="comments" class="form-control"rows="12" cols="35" placeholder="Inquiry"  required ></textarea>
+            </div>
+            <div class="modal-footer">
+              <input type="submit" name="submit" value="Send" class="btn btn-outline-success"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   </div> 
 </div>
 <div class="col">
@@ -123,50 +155,50 @@
 </div>
 
 <!--Social Media Gallery-->
+<section id="Social_media">
 <div class="row_facebook">
   <h5>Follow us on facebook</h5>
-  <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://www.facebook.com/ebgcleaners/" target="_blank"><i class="fab fa-facebook-f"> </i></a></button>
-
+  <button type="button" class="btn btn-outline-primary "><a href="https://www.facebook.com/ebgcleaners/" target="_blank"><i class="fab fa-facebook-f"> </i></a></button>
 </div>
     <div class="container-fluid_social">
     <div class="row">
       <div class="col-lg-3">
-        <img class="bd-placeholder-img rounded" width="190" height="190" src="image/window cleaning.JPG">
+        <img class="bd-placeholder-img rounded social_img" width="190" height="190" src="image/window cleaning.JPG">
       </div>
       <div class="col-lg-3">
-        <img class="bd-placeholder-img rounded" width="190" height="190" src="image/garden cleaning.JPG">
+        <img class="bd-placeholder-img rounded social_img" width="190" height="190" src="image/garden cleaning.JPG">
       </div>
       <div class="col-lg-3">
-        <img class="bd-placeholder-img rounded" width="190" height="190" src="image/carpet cleaning.JPG">
+        <img class="bd-placeholder-img rounded social_img" width="190" height="190" src="image/carpet cleaning.JPG">
       </div>
       <div class="col-lg-3">
-        <img class="bd-placeholder-img rounded" width="190" height="190" src="image/truck cleaning.JPG"> 
+        <img class="bd-placeholder-img rounded social_img" width="190" height="190" src="image/truck cleaning.JPG"> 
       </div>
     </div>
   </div>
-   
+</section>
       <!--Footer-->
-  <footer class="row row-cols-5 py-5 my-5 " >
+  <footer id="cta" class="row row-cols-5 py-5 my-5 " >
     <div class="col" >
-      <h5><a href="#" class="nav-link px-2 text-muted"><i class="fas fa-envelope" style="color: #4EBD87;"></i></a></h5>
+      <h5><a href="mailto:cleaners@ebggroup.co.za" class="nav-link px-2 text-muted"><i class="fas fa-envelope" style="color: #4EBD87;"></i></a></h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-4"><a href="mailto:cleaners@ebggroup.co.za" class="nav-link p-0 text-muted">cleaners@ebggroup.co.za</a></li>  
+        <li class="nav-item mb-4 text-muted">cleaners@ebggroup.co.za</li>  
       </ul>
     </div>
 
     <div class="col">
-      <h5><a href="#" class="nav-link px-2 text-muted"><i class="fas fa-phone" style="color: #4EBD87;"></i></a></h5>
+      <h5><a href="tel:065 512 2385" class="nav-link px-2 text-muted"><i class="fas fa-phone" style="color: #4EBD87;"></i></a></h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-muted">065 512 2385</a></li>
-        <li class="nav-item mb-4 phone"><a href="#" class="nav-link p-0 text-muted">monday-friday</a></li>
-        <li class="nav-item mb-4 phone"><a href="#" class="nav-link p-0 text-muted">8am-5pm</a></li>
+        <li class="nav-item mb-4 text-muted">065 512 2385</li>
+        <li class="nav-item mb-4 phone text-muted">monday-friday</li>
+        <li class="nav-item mb-4 phone text-muted">8am-5pm</li>
       </ul>
     </div>
 
     <div class="col">
-      <h5><a href="#" class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt"style="color: #4EBD87;"></i></a></h5>
+      <h5 class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt"style="color: #4EBD87;"></i></h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-muted">Gauteng</a></li>
+        <li class="nav-item mb-4  text-muted">Gauteng</li>
       </ul>  
     </div>
   
