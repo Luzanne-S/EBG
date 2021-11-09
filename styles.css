@@ -10,6 +10,7 @@ body{
     margin-left: 17%;
     margin-top: -15%;
 }
+
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -23,13 +24,31 @@ h2{
 }
 .about_content{
     text-align: center;
-    margin-top: 5%;
+
+}
+#company_profile{
+    margin-left: 45%;
 }
 .Industries{
    display:flex;
+   margin:auto;
+   margin-bottom: 15%;;
    justify-content: center;
    column-gap: 40px;
- 
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+.clean_btn_icon,.engin_btn_icon{
+    width: 100px;
+    height:100px;
+    font-size: 48px;
+    color: #2f6cc2;
+}
+.clean_btn_icon:hover,.engin_btn_icon:hover{
+  color: #78acf5;
 }
 
 .phone{
@@ -41,3 +60,5 @@ footer{
     text-align: center;
     padding-left: 20%; 
 }
+
+
