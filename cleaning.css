@@ -2,13 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
+.navbar{
+    margin-bottom: 15%;
+}
 .main_logo{
     width: 70%;
     display: block; 
     margin: auto;
     margin-left: 17%;
     margin-top: -15%;
- 
+
 }
 .phone{
     line-height: 1px;
@@ -72,8 +75,10 @@ align-items: center;
 margin-left: 12%;
 }
 #Social_media{
-    background-color: #EEEEEE;
+  
     height:450px;
+    margin:auto;
+    width:90%;
     padding-top: 5%;
 }
 #window{
