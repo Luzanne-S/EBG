@@ -17,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>EBG GROUP</title>
 </head>
 <body>
@@ -29,7 +31,7 @@
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
           <ul class="navbar-nav">
             <li class="nav-item ">
-              <a class="nav-link" href="#">About Us </a>
+              <a class="nav-link" href="#us">About Us </a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
@@ -50,18 +52,22 @@
     
     <!--About Us-->
     <div class="aboutus_container">
-        <h2>About Us</h2>
+        <h2 id="us">About Us</h2>
         <div class="about_content">
         <p>Established in October 2020, when the world seemed to shut down, we decided to look for ways to create employment and serve the people of South Africa </p>
         <p>BBBEE level 1-Black Female Owned</p>
       </div>
+      <button id="company_profile" class="btn btn-outline-light">Company Profile</button>
     </div>
 
     <!--Industries-->
     <h2 id="industry">Industries</h2>
     <div class="container Industries">
       <!--cleaning modal-->
-      <div class="flex-column" style="width: 18rem;">
+      <div class="flex-column" style="width: 18rem;"data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000">
         <ul>
         <li> <i class="fas fa-broom  clean_btn_icon"type="button"  data-toggle="modal" data-name="1" data-target="#exampleModal"></i></button></li>
         <li><h5>Cleaning Services</h5></li>
@@ -78,13 +84,16 @@
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary"><a href="Cleaning.html" target="_blank">Go to Cleaning Site</a></button>
+        <button type="button" class="btn btn-light"><a href="Cleaning.html" target="_blank">Go to Cleaning Site</a></button>
       </div>
     </div>
   </div>
 </div>
  <!--engineering modal-->
-      <div class="flex-column" style="width: 18rem;">
+      <div class="flex-column" style="width: 18rem;"data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000">
         <ul>
           <li>
          <i class="fas fa-industry engin_btn_icon"type="button"  data-toggle="modal" data-name="2" data-target="#staticBackdrop"></i></button></li>
@@ -109,6 +118,7 @@
   </div>
 
     <!--Footer-->
+    <section class="footer_background">
   <footer  id="cta"class="row row-cols-5 py-5 my-5 " >
     <div class="col" >
       <h5><a href="mailto:info@ebggroup.co.za" class="nav-link px-2 text-muted"><i class="fas fa-envelope" style="color: #25589D;"></i></a></h5>
@@ -140,6 +150,9 @@
     <p class="text-center text-muted">&copy; 2021 EBG Group</p>
   </div>
 
-<script src="index.js"></script>
+</section>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
