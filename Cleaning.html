@@ -17,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>EBG Cleaners</title>
 </head>
 <body>
@@ -41,8 +43,10 @@
           </div>
         </div>
       </nav> 
-      <div >
+      <div>
+        <div data-aos="fade-down" data-aos-duration="2000">
         <img class="main_logo" src="image/cleaning.png" alt="EBG Cleaning Services Logo"/>
+      </div>
      </div>
 
      <!--Why Us-->
@@ -83,7 +87,7 @@
 <!--Services-->
 <div id="inquire" class="container-fluid service">
   <div class="row">
-    <div class="col">
+    <div class="col"data-aos="fade-up-right" data-aos-duration="2000">
   <img src="image/pexels-karolina-grabowska-4239042.jpg" class="rounded-circle float-start clean_img1" alt="...">
   </div>
   <div class="col services">
@@ -149,13 +153,13 @@
   </div>
   </div> 
 </div>
-<div class="col">
+<div class="col"data-aos="fade-down-right" data-aos-duration="2000">
   <img src="image/pexels-karolina-grabowska-4239104 (1).jpg" class="rounded-circle clean_img2" alt="...">
   </div>
 </div>
 
 <!--Social Media Gallery-->
-<section id="Social_media">
+<div id="Social_media" data-aos="zoom-in"data-aos-duration="1500">
 <div class="row_facebook">
   <h5>Follow us on facebook</h5>
   <button type="button" class="btn btn-outline-primary "><a href="https://www.facebook.com/ebgcleaners/" target="_blank"><i class="fab fa-facebook-f"> </i></a></button>
@@ -176,7 +180,7 @@
       </div>
     </div>
   </div>
-</section>
+</div>
       <!--Footer-->
   <footer id="cta" class="row row-cols-5 py-5 my-5 " >
     <div class="col" >
@@ -208,5 +212,8 @@
     <p class="text-center text-muted">&copy; 2021 EBG Group</p>
       
   </div> 
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
