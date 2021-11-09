@@ -3,12 +3,12 @@ body{
     font-weight: 600;
 }
 .main_logo{
-    width: 70%; 
+    width: 70%;
     display: block; 
     margin: auto;
     margin-left: 17%;
     margin-top: -15%;
-    margin-bottom: -15%;
+ 
 }
 .phone{
     line-height: 1px;
@@ -17,12 +17,16 @@ body{
 h3{
     justify-content: center;
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
-.container-fluid{
-margin-top: 5%;
+.why{
+background-color: #EEEEEE;
 text-align: center;
-padding-left: 20%;
+margin:auto;
+padding-bottom: 3%;
+}
+.why_us{
+    margin-left: 3%;
 }
 
 .col1{
@@ -31,19 +35,46 @@ padding-left: 20%;
 ul{
 list-style: none;
 }
+.service_list{
+    margin-right: 10%;   
+}
+
 .row{
     margin-top: 4%;
 }
-.clean_img{
+
+.service{
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+.services{
+    text-align: center;
+    width:30%;
+    margin-right: 18%;
+}
+.clean_img1,
+.clean_img2{
     width:300px;
     height: 300px;
+    margin-left: 35%;
 }
 
 .icon{
     color:#73ecb2;
 }
-.container-fluid_socialMedia{
-    margin-top: 5%;
+
+.row_facebook{
+    text-align: center;
+}
+.container-fluid_social{
+width: 80%;
+align-items: center;
+margin-left: 12%;
+}
+#Social_media{
+    background-color: #EEEEEE;
+    height:450px;
+    padding-top: 5%;
 }
 #window{
     width:50%;
@@ -55,7 +86,7 @@ footer{
     text-align: center;
     padding-left: 20%; 
 }
-.social_img{
-    width:500px;
-    height:500px;
+
+.social_img:hover{
+    transform: scale(1.5);
 }
