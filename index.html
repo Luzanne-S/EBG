@@ -34,14 +34,10 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
               <div class="dropdown-menu" aria-labelledby="dropdown10" style="border:none">
-                <a class="dropdown-item" href="Engineering.html">Engineering</a>
                 <a class="dropdown-item" href="Cleaning.html">Cleaning Services</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="Engineering.html">Engineering</a>
               </div>
             </li>
-           <!--<li class="nav-item">
-                <a class="nav-link" href="#">Industries</a>
-              </li>-->
               <li class="nav-item">
                 <a class="nav-link " href="#cta">Contact Us</a>
               </li>
@@ -62,21 +58,58 @@
     </div>
 
     <!--Industries-->
-    <h2>Industries</h2>
+    <h2 id="industry">Industries</h2>
     <div class="container Industries">
+      <!--cleaning modal-->
       <div class="flex-column" style="width: 18rem;">
-        <img  src="image/ebg_cleaning 2.png" class="card-img-top" alt="..." >
-      
+        <ul>
+        <li> <i class="fas fa-broom  clean_btn_icon"type="button"  data-toggle="modal" data-name="1" data-target="#exampleModal"></i></button></li>
+        <li><h5>Cleaning Services</h5></li>
+      </ul>
       </div>
-
+<div class="modal fade" id="exampleModal" data-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">EBG Cleaners</h5>
+        <button type="button" class="btn btn-seconday-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"><a href="Cleaning.html" target="_blank">Go to Cleaning Site</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--engineering modal-->
       <div class="flex-column" style="width: 18rem;">
-        <img src="image/ebg_engineering.png" class="card-img-top" alt="..." >
-       
+        <ul>
+          <li>
+         <i class="fas fa-industry engin_btn_icon"type="button"  data-toggle="modal" data-name="2" data-target="#staticBackdrop"></i></button></li>
+        <li><h5>Engineering</h5></li>
+      </div>
+      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">EBG Engineering</h5>
+              <button type="button" class="btn btn-seconday-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer"> 
+              <button type="button" class="btn btn-seconday"><a href="Engineering.html" target="_blank">Go to Engineering Site</a></button>
+            </div>
+          </div>
+        </div>
       </div>
   </div>
 
     <!--Footer-->
-  <footer class="row row-cols-5 py-5 my-5 " >
+  <footer  id="cta"class="row row-cols-5 py-5 my-5 " >
     <div class="col" >
       <h5><a href="mailto:info@ebggroup.co.za" class="nav-link px-2 text-muted"><i class="fas fa-envelope" style="color: #25589D;"></i></a></h5>
       <ul class="nav flex-column">
