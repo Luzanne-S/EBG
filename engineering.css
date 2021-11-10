@@ -10,6 +10,27 @@ body{
     margin-left: 17%;
     margin-top: -15%;
 }
+.nav_home{
+    width:90px;
+    height:70px;
+}
+.main-head{
+    margin-top: 10%;
+   text-align: center;
+}
+.about_us{
+    background-color: #EEEEEE;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 3%;
+    }
+    .why_us{
+        margin-left: 3%;}
+.card-img-overlay{
+    text-align: center;
+    margin-top: 10%;
+    color:#25589D;
+}
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
