@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    
 }
 
 .main_logo{
@@ -35,7 +36,7 @@ h3{
 background-color: #EEEEEE;
 text-align: center;
 margin:auto;
-padding-bottom: 3%;
+
 }
 .why_us{
     margin-left: 3%;
@@ -62,6 +63,7 @@ list-style: none;
 .service{
     padding-bottom: 4%;
     margin-bottom: 5%;
+    background-color:#EEEEEE;
 }
 .services{
     text-align: center;
@@ -99,10 +101,10 @@ margin-left: 12%;
     height:50%;
 }
 footer{
-    width:80%;
+    width:100%;
     margin: auto;
     text-align: center;
-    padding-left: 20%;
+
     color: #EEEEEE;
 }
 .footer_end{
