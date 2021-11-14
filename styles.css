@@ -29,6 +29,8 @@ h2{
 }
 #company_profile{
     margin-left: 45%;
+    border-color: #34BE82;
+    background-color: white;
 }
 .Industries{
    display:flex;
