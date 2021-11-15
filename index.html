@@ -22,7 +22,7 @@
     <title>EBG GROUP</title>
 </head>
 <body>
-  
+  <section id="head">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light  rounded">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,8 @@
               <a class="nav-link" href="#us">About Us </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown10" style="border:none">
+              <a class="nav-link dropdown-toggle"  id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown10" >
                 <a class="dropdown-item" href="Cleaning.html">Cleaning Services</a>
                 <a class="dropdown-item" href="Engineering.html">Engineering</a>
               </div>
@@ -46,10 +46,12 @@
           </ul>
         </div>
       </nav>
+      <div data-aos="fade-up"data-aos-duration="1500">
       <div >
-         <img class="main_logo" src="image/ebg.PNG" alt="EBG Logo"/>
+         <img class="main_logo" src="image/IMG_0380[182].PNG" alt="EBG Logo"/>
       </div>
-
+    </div>
+    </section>
     <!--About Us-->
     <div class="aboutus_container">
         <h2 id="us">About Us</h2>
@@ -59,7 +61,15 @@
       </div>
       <button id="company_profile" class="btn btn">Company Profile</button>
     </div>
-
+<!--slogan-->
+<div data-aos="zoom-in-down"data-aos-duration="1000">
+<div class="circle">
+<div class="guarantee">
+<h4>Focusing on our customer is our guarantee</h4>
+<button id="guarantee-btn" class="btn btn"><i class="far fa-thumbs-up"></i></button>
+</div>
+</div>
+</div>
     <!--Industries-->
     <h2 id="industry">Industries</h2>
     <div class="container Industries">
@@ -89,6 +99,7 @@
     </div>
   </div>
 </div>
+
  <!--engineering modal-->
       <div class="flex-column" style="width: 18rem;"data-aos="fade-left"
       data-aos-offset="300"
@@ -116,7 +127,7 @@
         </div>
       </div>
   </div>
-  <h3>Customer satisfaction is a guarantee</h3>
+  
     <!--Footer-->
     <section class="footer_background">
   <footer  id="cta"class="row row-cols-5 py-5 my-5 " >
