@@ -53,22 +53,13 @@ h2{
     color: #4EBD87;
     font-size: 70px;
 }
-.circle{
-    margin: auto;
-        width: 400px;
-        height: 400px;
-        background: #dfe7df; 
-        -moz-border-radius: 200px; 
-        -webkit-border-radius: 200px; 
-        border-radius: 200px;
-    
-}
+
 
 .guarantee{
     text-align: center;
-    padding-top: 30%;
- padding-bottom:30% ;
-    margin-top: 20%;
+    padding-top: 10%;
+ padding-bottom:10% ;
+   
 }
 .container_industry{
     margin: auto;
@@ -84,7 +75,7 @@ h2{
 .Industries{
    display:flex;
    margin:auto;
-   margin-bottom: 15%;
+  
    justify-content: center;
    column-gap: 40px;
  
@@ -118,3 +109,8 @@ footer{
     color:#FFF7E0;
 
 }
+
+.vl {
+    border-left: 6px solid green;
+    height: 100px;
+  }
