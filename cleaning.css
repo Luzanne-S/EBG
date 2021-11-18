@@ -78,20 +78,16 @@ list-style: none;
     color:#73ecb2;
 }
 
-.row_facebook{
-    text-align: center;
+
+.facebook{
+ margin-top: 40%;
+ text-align: center;
 }
-.container-fluid_social{
-width: 80%;
-align-items: center;
-margin-left: 12%;
-}
-#Social_media{
-  
-    height:450px;
-    margin:auto;
-    width:90%;
-    padding-top: 5%;
+#facebook-btn{
+ margin-left: 45%;
+ padding-left:2%;
+ padding-right:2%;
+ 
 }
 #window{
     width:50%;
@@ -108,10 +104,6 @@ footer{
     color: #EEEEEE;
 }
 
-
-.social_img:hover{
-    transform: scale(1.5);
-}
 .nav_home{
     width:90px;
     height:70px;
