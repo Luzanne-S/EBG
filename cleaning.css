@@ -7,9 +7,12 @@ body{
     margin-right: 10%; 
 }
 #main{
-    margin-top: 10%;
    text-align: center;
-   margin-bottom: 10%;
+margin-left: 25%;
+}
+
+header{
+    padding-left: 18%;
 }
 .card-img{
     width:500px;
@@ -60,6 +63,7 @@ list-style: none;
 
 .service{
     padding-bottom: 4%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 .services{
