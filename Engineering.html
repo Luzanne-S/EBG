@@ -26,7 +26,7 @@
 <body>
   
    <!--NavBar-->
-   <nav class="navbar navbar-expand-lg navbar-light ">
+   <nav class="navbar navbar-expand-lg navbar-light" id="nav">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
   data-aos-duration="1500">
       <h1 class="card-title">EBG Engineering</h1>
       <h5 class="card-text">Dependable and Reliable</h5>
-      <button type="button" class="btn-btn"><a class="nav-link "href="#cta" style="color: #FFF7E0;;">Contact Us</a></button>
+      <button type="button" class="btn-btn"><a class="nav-link "href="#cta">Contact Us</a></button>
     </div>
     </div>
   </div>
@@ -71,7 +71,7 @@
 <div class="serv"data-aos="fade-up"
 data-aos-anchor-placement="top-bottom"
 data-aos-duration="2000" >
-<h2>Our Services</h2>
+<h2 id="sta">Our Services</h2>
 <div class="row row-cols-1 row-cols-sm-2 row-col-mb-3 text-center">
   <div class="col">
     <div class="card mb-4 rounded-3 shadow-sm">
@@ -131,18 +131,25 @@ data-aos-duration="2000" >
   </div>
 </div>
 </div>
+<div class="more_info">
+  <h5>
+    contact us for more information
+  </h5>
+  <a href="#cta" ><i class="fas fa-arrow-down"style="color: #698E97;"></i></a>
+</div>
 
   <!--Footer-->
+  <section class="end w3-light-grey">
   <footer id="cta" class="row row-cols-5 py-5 my-5 w3-light-grey" >
     <div class="col" >
-      <h5><a href="mailto:info@ebggroup.co.za" class="nav-link px-2 text-muted"><i class="fas fa-envelope"style="color: #25589D;"></i></a></h5>
+      <h5><a href="mailto:info@ebggroup.co.za" class="nav-link px-2 text-muted"><i class="fas fa-envelope"style="color: #698E97;"></i></a></h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-4">info@ebggroup.co.za</a></li>  
       </ul>
     </div>
 
     <div class="col">
-      <h5><a href="tel:083 564 2243" class="nav-link px-2 text-muted"><i class="fas fa-phone" style="color: #25589D;"></i></a></h5>
+      <h5><a href="tel:083 564 2243" class="nav-link px-2 text-muted"><i class="fas fa-phone" style="color: #698E97;"></i></a></h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-4">083 564 2243</a></li>
         <li class="nav-item mb-4 phone">monday-friday</a></li>
@@ -151,7 +158,7 @@ data-aos-duration="2000" >
     </div>
 
     <div class="col">
-      <h5 class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt" style="color: #25589D;"></i></h5>
+      <h5 class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt" style="color: #698E97;"></i></h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-4">Gauteng</a></li>
       </ul>  
@@ -160,8 +167,10 @@ data-aos-duration="2000" >
   
   </footer>
   <div class="footer_end">
-    <p class="text-center text-muted">&copy; 2021 EBG Group</p>
+    <p class="text-center text-muted">&copy; 2021 EBG Group &nbsp; <a href="#nav"><i class="fas fa-arrow-up"style="color: #698E97;"></i></a></p>
+    <br/> 
   </div> 
+</section>
   <script>
     AOS.init();
   </script>
