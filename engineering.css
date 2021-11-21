@@ -10,9 +10,12 @@ margin-right: 10%;
     height:70px;
 }
 .main-head{
-    margin-top: 10%;
-   text-align: center;
-   margin-bottom: 10%;
+    text-align: center;
+ margin-top: -40%;
+ margin-right: 28%;
+}
+.main_image{
+    margin-left:17%;
 }
 .btn-btn{
     width: 100px;
