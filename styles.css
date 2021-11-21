@@ -45,15 +45,13 @@ h2{
     border-color: #34BE82;
     background-color: white;
 }
+.industry-p{
+    margin-left: 10%;
+}
 #guarantee-btn{
     border: none;
     background-color:#dfe7df ;
 }
-.fa-thumbs-up{
-    color: #4EBD87;
-    font-size: 70px;
-}
-
 
 .guarantee{
     text-align: center;
