@@ -113,3 +113,59 @@ footer{
 .end{
 background-color: #529273;
 }
+
+@media screen and (max-width:667px){
+    .nav_home{
+        width:20%;
+        height:20%;
+        float:right;
+    }
+}
+
+@media screen and (max-width:667px){
+#main{
+   margin-top: -200%; 
+}
+}
+@media  screen and (max-width:667px) {
+    h2{
+        font-size: large;
+    }
+}
+@media  screen and (max-width:500px) {
+    p{
+        font-size: small;
+    }
+     }
+@media  screen and (max-width:500px) {
+    #cta{
+         margin-left: 2%;
+        }
+         }
+@media  screen and (max-width:500px) {
+    .clean_img1,
+    .clean_img2{
+        width:150px;
+        height: 150px;
+        margin-left: 20%;
+    }
+}
+
+@media  screen and (max-width:500px) {
+    .services{
+margin:auto;
+margin-top: 15%;
+margin-bottom:15% ;
+    }
+}
+@media  screen and (max-width:500px) {
+    h3{
+        font-size: medium;
+    }
+     }
+@media  screen and (max-width:500px) {
+.ul_us{
+margin-right:15%;
+}
+}
+
