@@ -71,3 +71,39 @@ footer{
     padding-top: 5%;
  padding-bottom:5% ;
 }
+
+@media screen and (max-width:667px){
+    .nav_home{
+        width:20%;
+        height:20%;
+        float:right;
+    }
+}
+
+@media  screen and (max-width:500px) {
+    h2,h1{
+        font-size: x-large;
+    }
+}
+@media screen and (max-width:667px){
+.main-head{
+ margin-top: -200%;
+}
+}
+
+@media  screen and (max-width:500px) {
+    h5,h3,h4{
+        font-size: medium;
+    }
+     }
+@media  screen and (max-width:500px) {
+     p{
+        font-size: small;
+    }
+     }
+@media  screen and (max-width:500px) {
+    #cta{
+        margin-left: 2%;
+     }
+    }
+
