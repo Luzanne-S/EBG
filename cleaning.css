@@ -6,10 +6,15 @@ body{
 .navbar{
     margin-right: 10%; 
 }
+.main_image{
+ margin-right:20%;
+
+}
 #main{
-   text-align: center;
-margin-top: -48%;
-margin-right: 20%;
+text-align: center;
+margin-top: -78%;
+padding-bottom: 30%;
+
 }
 
 header{
@@ -124,11 +129,11 @@ background-color: #529273;
 
 @media screen and (max-width:667px){
 #main{
-   margin-top: -200%; 
+  font-size: x-small;
 }
 }
 @media  screen and (max-width:667px) {
-    h2{
+    h1,h2{
         font-size: large;
     }
 }
@@ -151,7 +156,7 @@ background-color: #529273;
     }
 }
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:812px) {
     .services{
 margin:auto;
 margin-top: 15%;
@@ -168,4 +173,5 @@ margin-bottom:15% ;
 margin-right:15%;
 }
 }
+
 
