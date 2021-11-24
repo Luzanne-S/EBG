@@ -91,7 +91,7 @@ list-style: none;
 
 
 .facebook{
- margin-top: 40%;
+ margin-top: 20%;
  text-align: center;
 }
 #facebook-btn{
@@ -167,6 +167,7 @@ margin-bottom:15% ;
 @media  screen and (max-width:500px) {
     h3{
         font-size: medium;
+       
     }
      }
 @media  screen and (max-width:500px) {
@@ -175,4 +176,21 @@ margin-right:15%;
 }
 }
 
+@media  screen and (max-width:500px) {
+    #Social_media{
+margin-right: -20%;
+}
 
+}
+@media  screen and (max-width:500px) {
+.facebook{
+    margin-left:-18%;
+}
+}
+@media  screen and (max-width:500px) {
+#facebook-btn{
+    margin-left:36%;
+    margin-bottom: 5%;
+}
+
+}
