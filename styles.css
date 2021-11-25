@@ -3,26 +3,50 @@ body{
     font-weight: 600;    
 }
 
-#head{
-    background-image:url(image/pexels-johannes-plenio.jpg);
-    background-repeat: no-repeat;
-    height:100vh; 
-} 
 
 .dropdown-menu{
-    border:none; 
-    background-color: #c6d8d5;}
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 .dropdown-item:hover{
-   background-color: #698E97; 
+   background-color: #cadce0; 
+}
+.nav_home{
+    width:90px;
+    height:70px;
+}
+.navbar-brand{
+    margin-left: 30%;
+}
+.navbar-nav{
+    padding-right: 35%;
+}
+
+.nav-item1,.nav-item2,.nav-item3{
+    border: 3px solid white;
+    color:#004588;
+    background-color : transparent;
+    border-radius: 4px;
+    transition: color 1s;
+}
+
+.nav-item1:hover,.nav-item2:hover,.nav-item3:hover {
+    background-color: #004588;
+    color: #ffff;
+    border-radius: 7px;
 }
 
 .main_logo{
-    width: 50vw; 
+ padding-top: 2%;
+    width: 100vw; 
     display: block; 
     margin: auto;
-    margin-left: 22%;
- height: 70vh;
+    height: 90vh;
 }
 
 h2{
@@ -31,6 +55,7 @@ h2{
     padding-top:5%;
     padding-bottom: 5%;
 }
+
 .aboutus_container{
   margin-top: 5%;
   margin-bottom: 5%;
@@ -94,10 +119,14 @@ a:hover{
     line-height: 1px;
 }
 footer{
+  color: #C0CFDF;
     width:80%;
     margin: auto;
     text-align: center;
     padding-left: 20%; 
+}
+.footer_end{
+    color:#C0CFDF ;
 }
 
 .vl {
