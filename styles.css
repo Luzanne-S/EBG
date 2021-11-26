@@ -4,12 +4,11 @@ body{
 }
 #head{
     background-image: url("image/ayman-hallak-1wlvPzWQr1A-unsplash.jpg");
-    height:700px;
-    
+    height:700px;   
 }
 
 nav{
- background: rgba( 255, 255, 255, 0.25 );
+ background: rgba(255, 255, 255, 0.473);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
@@ -32,9 +31,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .nav_home{
     width:90px;
     height:70px;
+ 
 }
 .navbar-brand{
-    margin:auto;
+padding-left: 35%;
 }
 
 .nav-item1,.nav-item2,.nav-item3{
@@ -106,14 +106,33 @@ h2:after {
 }
 #guarantee-btn{
     border: none;
-    background-color:#dfe7df ;
+    background-color:#fff ;
 }
 
-.guarantee{
+.guarantee{ 
+    color:#fff;
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/marjan-blan-marjanblan-6bXvYyAYVrE-unsplash.jpg);
+    background-size: cover;
     text-align: center;
- padding-bottom:4% ;
-   
+    padding-bottom: 5%;
 }
+.guarantee::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 46, 95, 0.384);
+}
+
+
 .container_industry{
     margin: auto;
     border-radius: 25px;
@@ -167,8 +186,16 @@ footer{
     padding-top: 5%;
 }
 
+@media screen and (max-width:500px){
+#head{
+    background-image:url("image/ayman-hallak-1wlvPzWQr1A-unsplash.jpg");
+    height:450px;
+
+}
+}
+
  @media screen and (max-width:500px){
-     .main_logo,#company_profile{
+     .main_logo,#company_profile,#main{
          width:100%;
          margin:auto;
      }
