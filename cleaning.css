@@ -3,23 +3,70 @@ body{
     font-weight: 600;  
 }
 
-.navbar{
-    margin-right: 10%; 
-}
-.main_image{
- margin-right:20%;
 
+nav{
+    background: rgba(255, 255, 255, 0.473);
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   margin-bottom: 10%;
+   
+   }
+#head{
+    background-image: url("image/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
+    height:750px;   
 }
 #main{
-text-align: center;
-margin-top: -78%;
-padding-bottom: 30%;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    width:50%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+    margin:auto;
+    margin-left:25%;  
+    }
 
+.nav_home{
+    width:90px;
+    height:70px;
+ 
 }
 
-header{
-    padding-left: 18%;
+.navbar-brand{
+padding-left: 35%;
 }
+.nav-item1,.nav-item2,.nav-item3{
+    color:black;
+    border-radius: 4px;
+    transition: color 1s;
+}
+
+.nav-item1:hover,.nav-item2:hover,.nav-item3:hover {
+    background-color: #004588;
+    border-radius: 7px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+h2:after {
+    background: none repeat scroll 0 0 #004588;
+    margin:auto;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 100px;
+ }
 .card-img{
     width:500px;
    height:900px;
@@ -40,18 +87,14 @@ h3{
     padding-bottom: 3%;
     color: #4EBD87;
 }
+
 .why{
 text-align: center;
-padding-top: 25%;
 margin:auto;
 
 }
 .why_us{
-    margin-left: 3%;
-    color: #4EBD87;
-}
-.serv{
-    color: #4EBD87;
+    margin-left: 3%;  
 }
 
 .col1{
@@ -69,6 +112,8 @@ list-style: none;
 }
 
 .service{
+    background-color:#F4F5F7;
+    padding-top:2%;
     padding-bottom: 4%;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -88,7 +133,6 @@ list-style: none;
 .icon{
     color:#73ecb2;
 }
-
 
 .facebook{
  margin-top: 20%;
@@ -128,10 +172,18 @@ background-color: #529273;
         float:right;
     }
 }
+@media screen and (max-width:667px){
+#head{
+    background-image: url("image/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
+    height:400px;   
+
+}}
 
 @media screen and (max-width:667px){
 #main{
   font-size: x-small;
+  width:100%;
+         margin:auto;
 }
 }
 @media  screen and (max-width:667px) {
