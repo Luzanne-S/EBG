@@ -128,13 +128,6 @@ footer{
  padding-bottom:5% ;
 }
 
-@media screen and (max-width:667px){
-    .nav_home{
-        width:20%;
-        height:20%;
-        float:right;
-    }
-}
 
 @media  screen and (max-width:500px) {
     h2,h1{
