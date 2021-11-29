@@ -4,7 +4,7 @@ body{
 }
 #head{
     background-image: url("image/ayman-hallak-1wlvPzWQr1A-unsplash.jpg");
-    height:700px;   
+    height:710px;   
 }
 
 nav{
@@ -120,7 +120,7 @@ h2:after {
     background-image: url(image/marjan-blan-marjanblan-6bXvYyAYVrE-unsplash.jpg);
     background-size: cover;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
 .guarantee::before {
     content: "";
@@ -167,6 +167,11 @@ a:hover{
 .phone{
     line-height: 1px;
 }
+
+.footer_background{
+    margin-top: -5%;
+}
+
 footer{
   color: #C0CFDF;
     width:80%;
