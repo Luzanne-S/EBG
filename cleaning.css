@@ -134,16 +134,7 @@ list-style: none;
     color:#73ecb2;
 }
 
-.facebook{
- margin-top: 20%;
- text-align: center;
-}
-#facebook-btn{
- margin-left: 45%;
- padding-left:2%;
- padding-right:2%;
- 
-}
+
 #window{
     width:50%;
     height:50%;
@@ -165,13 +156,11 @@ footer{
 background-color: #529273;
 }
 
-@media screen and (max-width:667px){
-    .nav_home{
-        width:20%;
-        height:20%;
-        float:right;
-    }
+#Social_media{
+  margin-left:10%;
+  
 }
+
 @media screen and (max-width:667px){
 #head{
     background-image: url("image/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
@@ -231,15 +220,12 @@ margin-right:15%;
 
 @media  screen and (max-width:500px) {
     #Social_media{
-margin-right: -20%;
+margin-left:20%;
+
 }
 
 }
-@media  screen and (max-width:500px) {
-.facebook{
-    margin-left:-18%;
-}
-}
+
 @media  screen and (max-width:500px) {
 #facebook-btn{
     margin-left:36%;
