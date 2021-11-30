@@ -34,8 +34,7 @@ nav{
 
 .nav_home{
     width:90px;
-    height:70px;
- 
+    height:70px; 
 }
 
 .navbar-brand{
@@ -51,6 +50,7 @@ padding-left: 35%;
     background-color: #004588;
     border-radius: 7px;
 }
+
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -67,16 +67,7 @@ h2:after {
     position: relative;
     width: 100px;
  }
-.card-img{
-    width:500px;
-   height:900px;
-   opacity:0.85;
-}
-.card-img-overlay{
-    text-align: center;
-    color:#529273 ;
-    margin-top: 5%;
-}
+
 .phone{
     line-height: 1px;
 }
@@ -134,7 +125,6 @@ list-style: none;
     color:#73ecb2;
 }
 
-
 #window{
     width:50%;
     height:50%;
@@ -146,14 +136,13 @@ footer{
     text-align: center;
     padding-left: 20%; 
 }
-
+.footer_end{
+    color:#C0CFDF ;
+}
 
 .nav_home{
     width:90px;
     height:70px;
-}
-.end{
-background-color: #529273;
 }
 
 #Social_media{
