@@ -52,10 +52,6 @@ nav{
 .btn-btn{
   border-style: none;
 }
-.main_image{
-    width:70%;
-    margin-left:15%;
-}
 
 .about_us{
     text-align: center;
@@ -65,11 +61,6 @@ nav{
     margin-bottom: 5%;
     }
 
-.card-img-overlay{
-    text-align: center;
-    margin-top: 10%;
-    color:#25589D;
-}
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -117,6 +108,9 @@ footer{
     margin: auto;
     text-align: center;
     padding-left: 20%; 
+}
+.footer_end{
+    color:#C0CFDF ;
 }
 .serv{
     width:fit-content;
