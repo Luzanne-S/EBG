@@ -86,9 +86,8 @@ h2:after {
 
 .aboutus_container{
   margin-top: 5%;
-  margin-bottom: 5%;
-    height: max-content;
-    padding-bottom: 5%;
+  height: max-content;
+  padding-bottom: 5%;
 }
 .about_content{
     text-align: center;
@@ -100,9 +99,11 @@ h2:after {
     background-color: #4EBC88;
     color:#fff;
 }
-
+.Industry{
+    padding-top: -10%;
+}
 .industry-p{
-    margin-left: 10%;
+   padding-left: 35%;
 }
 #guarantee-btn{
     border: none;
@@ -140,21 +141,20 @@ h2:after {
     width:80%;
     height: 400px;
 }
-
-#industry{
+.industry-modals{
     margin-top: 5%;
+    margin-left: 30%;
+    padding-bottom: 10%;
 }
-
 ul{
     list-style: none;
     text-align: center;
 }
 .clean_btn_icon,.engin_btn_icon{
-    margin-top: 30%;
-    width: 100px;
-    height:100px;
-    font-size: 48px;
-    color: #2365a7;
+    width:128px;
+    height:128px;
+    padding:5%;
+    border-radius: 35%;
 }
 .clean_btn_icon:hover,.engin_btn_icon:hover{
   color: #4EBC88
