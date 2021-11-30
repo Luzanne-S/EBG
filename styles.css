@@ -133,7 +133,6 @@ h2:after {
     background-color: rgba(0, 46, 95, 0.384);
 }
 
-
 .container_industry{
     margin: auto;
     border-radius: 25px;
@@ -156,14 +155,7 @@ ul{
     padding:5%;
     border-radius: 35%;
 }
-.clean_btn_icon:hover,.engin_btn_icon:hover{
-  color: #4EBC88
-}
-a:hover{
-  color: #05bdeb; 
-  text-decoration: none;
- }
- 
+
 .phone{
     line-height: 1px;
 }
@@ -173,7 +165,7 @@ a:hover{
 }
 
 footer{
-  color: #C0CFDF;
+   color: #C0CFDF;
     width:80%;
     margin: auto;
     text-align: center;
@@ -232,15 +224,15 @@ p{
  
  @media  screen and (max-width:500px) {
 h4{
-    margin-left:15%;
+    padding-right:40%;
     font-size: large;
 }
  }
 
  @media  screen and (max-width:500px) {
     .clean_btn_icon,.engin_btn_icon{
-        margin-left:20%;
-        font-size: 40px;
+margin-right:60%;
+        font-size: 30px;
 }
  }
  @media  screen and (max-width:500px) {
