@@ -156,6 +156,10 @@ ul{
     border-radius: 35%;
 }
 
+.mail:hover ,.dial:hover ,.location:hover {
+        transform: scale(1.5); 
+      }
+
 .phone{
     line-height: 1px;
 }
