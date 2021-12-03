@@ -136,6 +136,9 @@ footer{
     text-align: center;
     padding-left: 20%; 
 }
+.mail:hover ,.dial:hover ,.location:hover {
+    transform: scale(1.5); 
+  }
 .footer_end{
     color:#C0CFDF ;
 }
