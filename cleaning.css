@@ -101,7 +101,9 @@ list-style: none;
 .row{
     margin-top: 4%;
 }
-
+small{
+    font-size: medium;
+}
 .service{
     background-color:#F4F5F7;
     padding-top:2%;
