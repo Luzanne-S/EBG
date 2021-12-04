@@ -156,9 +156,12 @@ ul{
     border-radius: 35%;
 }
 
+.clean_btn_icon:hover ,.engin_btn_icon:hover{
+    transform: scale(1.2); 
+  }
 .mail:hover ,.dial:hover ,.location:hover {
-        transform: scale(1.5); 
-      }
+    transform: scale(1.5); 
+  }
 
 .phone{
     line-height: 1px;
