@@ -75,22 +75,21 @@
   <div class="col">
   <ul class="ul_us">
     <li><i class="fas fa-coins icon"></i>
-
-    <small>affordable</small>
+    <p>affordable</p>
   </li>
 </ul>
 </div>
 <div class="col">
   <ul class="ul_us">
   <li><i class="far fa-smile  icon"></i>
-<small>customer satisfaction</small>
+    <p>customer satisfaction</p>
 </li>
 </ul>
 </div>
 <div class="col">
 <ul class="ul_us">
 <li><i class="fas fa-home icon"></i>
-<small>no job too small</small>
+  <p>no job too small</p>
 </li>
 </ul>
 </div>
@@ -99,40 +98,32 @@
 </div>
 </div>
 <!--Services-->
-<div id="inquire" class="container-fluid service">
+<div id="inquire" class="container-fluid service"data-aos="fade-up"
+data-aos-anchor-placement="top-bottom"
+data-aos-duration="2000" >
   <div class="row">
-    <div class="col"data-aos="fade-right" data-aos-duration="2000">
-  <img src="image/pexels-karolina-grabowska-4239042.jpg" class="rounded-circle float-start clean_img1" alt="tile cleaning">
-  </div>
   <div class="col services">
     <h2 class="serv">Our Services</h2>
-    <ul class="service_list">
-    <li>
-      Commercial and Residential Cleaning
-    </li>
-    <li>
-     General and Deep Cleaning
-    </li>
-    <li>
-     Moving in/Move Out
-    </li>
-    <li>
-    Upholstery Cleaning
-    </li>
-    <li>
-      Sofa and Carpet Shampooing
-    </li>
-    <li>
-    Post Construction Cleaning
-    </li>
-    <li>
-      Vehicle Valet
-    </li>
-    <li>
-      Garden Services
-    </li>
-  </ul>
-  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Inquire Now</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Commercial and Residential Cleaning</div>
+      <div class="col-sm">General and Deep Cleaning</div>
+      <div class="col-sm">Moving in/Move Out</div>
+      <div class="col-sm">Upholstery Cleaning</div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">Sofa and Carpet Shampooing</div>
+        <div class="col-sm"> Post Construction Cleaning</div>
+        <div class="col-sm"> Vehicle Valet</div>
+        <div class="col-sm"> Garden Services</div>
+      </div>
+      </div>      
+  </div> 
+</div>
+</div>
+<button type="button" class="btn btn-outline-success inquire_now" data-toggle="modal" data-target="#exampleModal">Inquire Now</button>
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -141,7 +132,7 @@
           <button type="button" class="btn btn-outline-success" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
         </div>
         <div class="modal-body">
-          <form action="mailto:cleaners@ebggroup.co.za" method="get" enctype="text/plain">
+          <form action="mailto:cleaners@ebggroup.co.za" method="get" enctype="text/plain"style="text-align: center;">
             <div>
               <label for="name">Name:
                 <input type="text"class="form-control" name="name" id="name" required />
@@ -155,7 +146,7 @@
             <div>
               <label>Message:</label>
               <br />
-              <textarea name="comments" class="form-control"rows="12" cols="35" placeholder="Inquiry"  required ></textarea>
+              <textarea name="comments" class="form-control"rows="12" cols="35" required ></textarea>
             </div>
             <div class="modal-footer">
               <input type="submit" name="submit" value="Send" class="btn btn-outline-success"/>
@@ -165,12 +156,6 @@
       </div>
     </div>
   </div>
-  </div> 
-</div>
-<div class="col"data-aos="fade-left" data-aos-duration="2000">
-  <img src="image/pexels-karolina-grabowska-4239104 (1).jpg" class="rounded-circle clean_img2" alt="cleaning products">
-  </div>
-</div>
 
 <!--Social Media Gallery-->
 <section class="media" >
@@ -180,16 +165,16 @@
       <h6>Follow us on Facebook</h6>
       <button type="button" id="facebook-btn" class="btn btn-outline-primary" style="margin-left: 25%;"><a href="https://www.facebook.com/ebgcleaners/" target="_blank"><i class="fab fa-facebook-f"> </i></a></button>  
     </div>
-    <div class="cards" style="width: 18rem;">
+    <div class="cards rounded mx-auto d-block" style="width: 18rem;">
       <img src="image/window cleaning.JPG" alt="window clenaing"style="width:80%;height:250px;border-radius: 25px;">
     </div>
-    <div class="cards" style="width: 18rem;">
+    <div class="cards rounded mx-auto d-block" style="width: 18rem;">
       <img src="image/garden cleaning.JPG" alt="Card image cap"style="width:80%;height:250px;border-radius: 25px;"> 
     </div>
-    <div class="cards" style="width: 18rem;">
+    <div class="cards rounded mx-auto d-block" style="width: 18rem;">
       <img src="image/truck cleaning.JPG" alt="Card image cap"style="width:80%;height:250px;border-radius: 25px;"> 
     </div>
-    <div class="cards" style="width: 18rem;">
+    <div class="cards rounded mx-auto d-block" style="width: 18rem;">
       <img src="image/carpet cleaning.JPG" alt="Card image cap"style="width:80%;height:250px;border-radius: 25px;">      
     </div>
   </div>
@@ -228,6 +213,7 @@
     <p class="text-center ">&copy; 2021 EBG Group &nbsp; <a href="#head"><i class="fas fa-arrow-up"style="color: #698E97;"></i></a></p>
     <br/>  
   </div> 
+  <small><a href="#" target="_blank">designed by luzanne</a></small>
 </section>
   <script>
     AOS.init();
