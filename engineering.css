@@ -58,8 +58,15 @@ nav{
   padding-top: 3%;
     margin:auto;
     padding-bottom: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     }
+.provide_services{
+    width:65%;
+    display: flex;
+    flex-direction: row;
+  margin:auto;
+
+}
 
 h2{
     font-family: 'Raleway', sans-serif;
@@ -112,8 +119,13 @@ footer{
 .mail:hover ,.dial:hover ,.location:hover {
     transform: scale(1.5); 
   }
-.footer_end{
+.footer_end,small{
     color:#C0CFDF ;
+}
+small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .serv{
     width:fit-content;
