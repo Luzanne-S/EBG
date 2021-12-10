@@ -21,10 +21,12 @@ margin-bottom: 10%;
     height:70px;
  
 }
+.navbar-brand{
+    padding-left: 35%;
+    }
 
 .nav-item1,.nav-item2,.nav-item3{
     padding-bottom: -5%;
-    margin-top: 4%;
     border-radius: 4px;
     transition: color 1s;
 }
@@ -33,6 +35,7 @@ margin-bottom: 10%;
  width:1000px;
  height:900px;
 }
+
 #main{
     background: rgba( 255, 255, 255, 0.45 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -70,10 +73,22 @@ h2:after {
   padding-bottom: 5%;
 }
 .about_content{
+    width:50%;
+    margin:auto;
     text-align: center;
-
 }
+.service_for{
+    width:65%;
+    border:none;
+    display: block;
+    margin:auto;
+    padding-top: 10%;
+}
+
 .provide_services{
+    margin-top: 5%;
+    width: 20rem;
+    border:none;
     width:65%;
     display: flex;
     flex-direction: row;
@@ -82,14 +97,21 @@ h2:after {
 }
 
 #company_profile{
+    margin-top: 5%;
     margin-left: 44%;
     border-color: #4EBC88;
     background-color: #4EBD87;
     color:#fff;
 }
-.serv{
+.serv{  
     width:fit-content;
     margin:auto;
+    margin-bottom: 6%;
+}
+.service-p{
+    width:50%;
+    margin:auto;
+    padding-bottom: 5%;
 }
 .service_circle{
     width:128px;
@@ -142,6 +164,21 @@ h2:after {
     left: 0px;
     background-color: rgba(0, 46, 95, 0.342);
 }
+.accreditation{
+display:block;
+margin:auto;
+padding-bottom: 5%;
+padding-left: 10%;
+
+}
+
+.card{
+    border:none;
+}
+
+.accreditation_info{
+ justify-content: center;
+}
 
 .container_industry{
     margin: auto;
@@ -171,11 +208,11 @@ ul{
 .clean_btn_icon:hover ,.engin_btn_icon:hover{
     transform: scale(1.2); 
   }
-.mail:hover ,.dial:hover ,.location:hover {
+.mail:hover ,.dial:hover{
     transform: scale(1.5); 
   }
 
-.phone{
+.phone,.area{
     line-height: 1px;
 }
 
