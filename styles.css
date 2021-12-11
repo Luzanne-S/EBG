@@ -45,16 +45,15 @@ margin-bottom: 10%;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-align: center;
     width:50%;
-   padding-top: 5%;
-   padding-bottom: 5%;
+   padding: 5% 0;
     margin:auto;
     }
 
-h2{
+h2,h3{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding-top:5%;
-    padding-bottom: 5%;
+    padding:5% 0;
+   
 }
 h2:after {
     background: none repeat scroll 0 0 #004588;
@@ -70,13 +69,25 @@ h2:after {
 .aboutus_container{
   margin-top: 5%;
   height: max-content;
-  padding-bottom: 5%;
 }
 .about_content{
     width:50%;
     margin:auto;
     text-align: center;
 }
+.cover1{
+    background-image: url('image/coalstation.jpg');
+  opacity: 0.75;
+}
+.cover2{
+    background-image: url('image/live\ transformer.jpg');  
+    opacity: 0.75;
+}
+
+.acc-h2{
+    font-weight: 800;
+}
+
 .service_for{
     width:65%;
     border:none;
@@ -99,8 +110,8 @@ h2:after {
 #company_profile{
     margin-top: 5%;
     margin-left: 44%;
-    border-color: #4EBC88;
-    background-color: #4EBD87;
+    border-color: #004588;
+    background-color: #004588;
     color:#fff;
 }
 .serv{  
@@ -145,7 +156,7 @@ h2:after {
 .guarantee{ 
     color:#fff;
     position: relative; 
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -153,7 +164,7 @@ h2:after {
     background-image: url(image/marjan-blan-marjanblan-6bXvYyAYVrE-unsplash.jpg);
     background-size: cover;
     text-align: center;
-    padding-bottom: 8%;
+    padding: 6% 0;
 }
 .guarantee::before {
     content: "";
@@ -176,38 +187,17 @@ padding-left: 10%;
     border:none;
 }
 
-.accreditation_info{
+.accreditation_info{ 
  justify-content: center;
+ padding-right: 10%;
 }
 
-.container_industry{
-    margin: auto;
-    border-radius: 25px;
-    background-color:#F4F5F7;
-    width:80%;
-    height: 400px;
-}
-.industry-modals{
-    margin-top: 5%;
-    margin-left: 30%;
-    padding-bottom: 10%;
-}
+
 ul{
     list-style: none;
     text-align: center;
 }
-.clean_btn_icon,.engin_btn_icon{
-    display:block;
-    margin: auto;
-    width:128px;
-    height:128px;
-    padding:5%;
-    border-radius: 35%;
-}
 
-.clean_btn_icon:hover ,.engin_btn_icon:hover{
-    transform: scale(1.2); 
-  }
 .mail:hover ,.dial:hover{
     transform: scale(1.5); 
   }
@@ -277,35 +267,28 @@ h5,h3{
  }
 
  @media  screen and (max-width:500px) {
-p{
+p,ul{
     font-size: small;
+    text-align: center;
 }
  }
  
  @media  screen and (max-width:500px) {
 h4{
-    padding-right:40%;
     font-size: medium;
     text-align: center;
 }
  }
 
  @media  screen and (max-width:500px) {
-    .clean_btn_icon,.engin_btn_icon{
-       margin-left:-5%;
-}
-@media  screen and (max-width:500px) {
-.eng_h4{
-    margin-right:20%; 
-}
-}
- }
- @media  screen and (max-width:500px) {
- .slogan_p{
-   padding-top: 25%;
+    .service_circle{
+        width:64px;
+        height:64px;
+        padding:2%;
+        border-radius: 35%;
+     }
  }
 
- }
  @media  screen and (max-width:500px) {
 #cta{
     margin-left: 2%;
