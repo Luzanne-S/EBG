@@ -37,6 +37,7 @@ margin-bottom: 10%;
 }
 
 #main{
+    font-family: 'Raleway', sans-serif;
     margin:auto;
     width:60%;
     font-weight: bolder;
@@ -125,9 +126,6 @@ h4{
   margin:auto;
 
 }
-.main-card1,.main-card2,.main-card3{
-    height: 75vh;
-}
 
 .serv-card,.serv-card1,.serv-card2 {
     padding-top: 10%;
@@ -156,7 +154,22 @@ h4{
     border-color: #004588;
     background-color: #004588;
     color:#fff;
+    padding: 10px 20px;
+    border-radius: 16px;
 }
+h5,.profile-header{
+    color:#004588;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.profile-p{
+    line-height: 0.6;
+    text-align: center;
+}
+
+
 .serv{  
     width:fit-content;
     margin:auto;
@@ -274,6 +287,10 @@ small{
     flex-direction: column;
     align-items: center;
 }
+a:hover{
+    text-decoration: none;
+    color: #fff;
+ }
 .vl {
     border-left: 6px solid #004588;
     height: 100px;
@@ -305,20 +322,25 @@ small{
         margin-left:30%;
     }
  }
- @media  screen and (max-width:500px) {
+ @media screen and (max-width:500px) {
      h2,h1{
          font-size: x-large;
      }
  }
 
- @media  screen and (max-width:500px) {
+ @media screen and (max-width:500px) {
 h5,h3{
     font-size: medium;
 }
  }
-
  @media  screen and (max-width:500px) {
-p,ul{
+  ol{
+        font-size: small;
+      
+    }
+     }
+ @media  screen and (max-width:500px) {
+p,ul,ol{
     font-size: small;
     text-align: center;
 }
@@ -331,24 +353,32 @@ h4{
 }
  }
 
- @media  screen and (max-width:500px) {
+
+ @media  screen and (max-width:667px) {
    .main-card1{
        height:300px;
    } }
- @media  screen and (max-width:500px) {
- .serv-card {
-    padding-bottom: -20%;
- }
-}
-@media  screen and (max-width:500px) {
+
+   @media  screen and (max-width:667px) {
+   .main-card2, .main-card3{
+        height:5%;
+    } }
+  
+ 
+@media  screen and (max-width:667px) {
     .serv-card1{
-    height: 900vh;  
+    height: 15%;  
     }
 }
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:667px) {
 .serv-card2 {
-    height: 400vh;
-    margin-top: 20%;
+    height: 20%;
+
+}
+@media  screen and (max-width:700px) {
+.serv-card,.serv-card1,.serv-card2{
+    box-shadow: none;
+}
 
 }
  @media  screen and (max-width:500px) {
@@ -359,8 +389,11 @@ h4{
         border-radius: 35%;
      }
  }
+
+ 
  @media  screen and (max-width:500px) {
 #cta{
+
     margin-left: 2%;
 }
  }}
