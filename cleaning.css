@@ -13,25 +13,22 @@ nav{
    
    }
 #head{
-    background-image: url("image/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
-    height:750px;   
+    background-image: url("image/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+    height:750px; 
+
 }
-#main{
-    color: #004588;
+
+#main,h1,.card-text-main{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
     font-weight: bolder;
     font-weight: 2000;
-    background: rgba( 255, 255, 255, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    text-align: center;
-    width:50%;
-   padding-top: 5%;
+ text-align: center;
+    width:60%;
+   padding-top: 3%;
    padding-bottom: 5%;
     margin:auto;
-    margin-left:25%;  
+    margin-left:20%;  
     }
 
 .nav_home{
@@ -118,18 +115,26 @@ list-style: none;
 }
 .service_imgs{
    padding-left: 10%;
+   
 }
 .service-cols{
     border-color: #53d194;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.185);
+}
+.modal-title-inquire{
+   padding-left: 38%;
 }
 
 .inquire_now{
     display: block;
     margin:auto;
+    text-align:center;
     margin-top: -5%;
     border-color: #004588;
     background-color: #004588;
     color:#fff;
+    padding: 10px 20px;
+    border-radius: 16px;
 }
 
 .inquire_now:hover{
@@ -158,6 +163,10 @@ footer{
     color:#C0CFDF ;
 }
 
+a:hover{
+   text-decoration: none;
+   color: #fff;
+}
 .nav_home{
     width:90px;
     height:70px;
@@ -185,9 +194,12 @@ small{
     align-items: center;
 }
 
+
+
+
 @media screen and (max-width:667px){
 #head{
-    background-image: url("image/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
+    background-image: url("image/nastuh-abootalebi-yWwob8kwOCk-unsplash\ \(1\).jpg");
     height:400px;   
 
 }}
@@ -210,7 +222,9 @@ small{
     }
 }
 @media  screen and (max-width:500px) {
-    p,h6,h5{
+    p,h6,h5,label
+    
+    {
         font-size: small;
     }
      }
@@ -219,7 +233,7 @@ small{
          margin-left: 2%;
         }
          }
-
+                 
 @media  screen and (max-width:812px) {
     .services{
 margin:auto;
@@ -228,7 +242,8 @@ margin:auto;
 }
 @media  screen and (max-width:812px) {
 .service_imgs{
-padding-left:20%;
+    display: block;
+margin: auto;
 
 }
 }
@@ -239,7 +254,7 @@ padding-left:20%;
      }
  @media  screen and (max-width:500px) {
     .inquire_now  {
-        width:25%;
+        width:30%;
         font-size: x-small;
         }}
 @media  screen and (max-width:500px) {
