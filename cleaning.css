@@ -4,13 +4,13 @@ body{
 }
 
 nav{
+    font-size: larger;
     background: rgba(255, 255, 255, 0.473);
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 4px );
    -webkit-backdrop-filter: blur( 4px );
    border-radius: 10px;
-   margin-bottom: 10%;
-   
+   margin-bottom: 10%; 
    }
 #head{
     background-image: url("image/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
@@ -35,14 +35,12 @@ nav{
     width:90px;
     height:80px; 
 }
-
 .navbar-brand{
-padding-left: 32%;
+padding-left: 25%;
 }
 .nav-item1,.nav-item2,.nav-item3{
-    color:black;
     border-radius: 4px;
-    transition: color 1s;
+  
 }
 
 h2{
@@ -90,7 +88,6 @@ list-style: none;
 .row{
     margin-top: 4%;
 }
-
 
 .service-contact{
     font-weight: bolder;
