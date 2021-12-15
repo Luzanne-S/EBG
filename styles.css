@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;    
@@ -6,8 +7,10 @@ body{
     background-image: url("image/ayman-hallak-1wlvPzWQr1A-unsplash.jpg");
     height:710px;   
 }
+html{scroll-behavior:smooth !important;}
 
 nav{
+font-size: larger;
  background: rgba(255, 255, 255, 0.473);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
@@ -22,7 +25,7 @@ margin-bottom: 10%;
  
 }
 .navbar-brand{
-    padding-left: 35%;
+    padding-left: 27%;
     }
 
 .nav-item1,.nav-item2,.nav-item3{
@@ -57,7 +60,7 @@ margin-bottom: 10%;
 
 h1:after {
     background: none repeat scroll 0 0 #fff;
-margin-top: 2%;
+    margin-top: 2%;
     bottom: -10px;
     content: "";
     display: block;
@@ -84,8 +87,8 @@ h2:after {
  }
 
 .aboutus_container{
-  margin-top: 5%;
-  height: max-content;
+    margin-top: 5%;
+    height: max-content;
 }
 .about_content{
     width:50%;
@@ -95,7 +98,7 @@ h2:after {
 
 .cover1{
     background-image: url('image/coalstation.jpg');
-  opacity: 0.75;
+    opacity: 0.75;
 }
 .cover2{
     background-image: url('image/live\ transformer.jpg');  
@@ -123,7 +126,7 @@ h4{
     width:65%;
     display: flex;
     flex-direction: row;
-  margin:auto;
+    margin:auto;
 
 }
 
@@ -137,14 +140,14 @@ h4{
   }
   
   .serv-card:hover{
-    height: 400px;
+    height: 410px;
   }
 
   .serv-card1:hover{
     height: 600px;
   }
 .serv-card2:hover{
-    height: 420px;
+    height: 432px;
 }
 #company_profile{
     font-size: small;
@@ -170,7 +173,7 @@ h5,.profile-header{
 }
 
 
-.serv{  
+.serv{ 
     width:fit-content;
     margin:auto;
     margin-bottom: 6%;
