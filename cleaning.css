@@ -256,11 +256,16 @@ p,ul,ol{
 }
 
 @media  screen and (max-width:500px) {
- h6,h5,label{
+ h6,label{
     font-size: small;
 }
 }
 
+@media  screen and (max-width:640px) {
+h5{
+    font-size: medium;
+}
+}
  @media  screen and (max-width:500px) {
 p,ul,ol{
     font-size: small;
