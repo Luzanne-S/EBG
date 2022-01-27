@@ -1,2 +1,2 @@
 # EBG
-Updating and redesigning an existing EBG wordpress website. The new website will be redone without wordpress or pluggins
+Updated an existing website to make it more simplistic
