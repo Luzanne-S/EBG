@@ -5,7 +5,7 @@ I also designed and created the logo and favicons for the site.
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](image/screenshot.png)
 
 
 ### Links
