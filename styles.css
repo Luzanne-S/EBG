@@ -635,7 +635,10 @@ section {
   margin-right: 20px;
   color: #38618e;
 }
-
+.wires,
+.motor {
+  height: 42vh;
+}
 .service-column {
   border: solid;
   border-color: #38628e3a;
@@ -736,9 +739,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Features Section
+  # Companies Section
   --------------------------------------------------------------*/
-.features {
+.companies {
   height: max-content;
 }
 
@@ -753,73 +756,49 @@ section {
 .companiesDiv {
   margin: 5% 0 5% 40%;
 }
-.features h3 {
+.companies h3 {
   color: var(--color-secondary);
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.features .icon-list i {
+.companies .icon-list i {
   margin-right: 10px;
   font-size: 24px;
   line-height: 1.2;
 }
 
-.features .icon-list span {
+.companies .icon-list span {
   font-size: 18px;
   color: #29486a;
 }
 
-.features .phone-wrap {
-  position: absolute;
-  right: 0;
-}
-
 @media (max-width: 768px) {
-  .features .phone-wrap {
-    position: relative;
-  }
   .companiesDiv {
     margin: 5% 0 5% 0%;
   }
 }
 
-.features .phone-wrap img {
-  width: 340px;
-}
-
-@media (max-width: 992px) {
-  .features .phone-wrap img {
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .features .phone-wrap img {
-    width: 100%;
-  }
-}
-
-.features .details {
+.companies .details {
   margin-top: 80px;
   padding: 120px 0;
   background-color: #f7f9fc;
 }
 
-.features .details h4 {
+.companies .details h4 {
   color: var(--color-secondary);
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.features .details p {
+.companies .details p {
   margin-bottom: 20px;
   font-size: 15px;
 }
 
-.features .details .btn-get-started {
+.companies .details .btn-get-started {
   font-family: var(--font-primary);
   display: inline-block;
   font-weight: 500;
@@ -832,7 +811,7 @@ section {
   color: #fff;
 }
 
-.features .details .btn-get-started:hover {
+.companies .details .btn-get-started:hover {
   background: #2aa5df;
 }
 
@@ -885,6 +864,24 @@ section {
   .contact {
     background-position: center 50px;
   }
+  #id_2.form-line {
+    width: 70%;
+    margin-left: -10px;
+  }
+  #cid_2 {
+    width: 100%;
+    margin: auto;
+  }
+  ul.form-section.page-section {
+    padding-left: 0rem;
+    width: 70%;
+  }
+
+  input#input_7.form-control,
+  input#input_8.form-control,
+  .contact textarea.form-control {
+    width: 350px;
+  }
 }
 
 .contact:before {
@@ -928,12 +925,40 @@ section {
   margin-bottom: 0;
   font-size: 14px;
 }
+/*--------------------------------------------------------------
+  # Jotform Section
+  --------------------------------------------------------------*/
 
-.contact .php-email-form {
+.form-label-right {
+  width: 150px;
+}
+.form-all {
+  width: 450px;
+  color: #000000 !important;
+  font-size: 14px;
+}
+#cid_10 {
+  margin-top: -10%;
+}
+#cid_2 {
+  margin: auto;
+}
+.form-radio-item label,
+.form-checkbox-item label,
+.form-grading-label,
+.form-header {
+  color: #2e2e2e;
+}
+
+/*--------------------------------------------------------------
+  # Jotform Section
+  --------------------------------------------------------------*/
+.contact {
   width: 100%;
 }
 
-.contact .php-email-form .form-group {
+.contact,
+.form-group {
   padding-bottom: 8px;
 }
 
@@ -979,14 +1004,17 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact input,
+.contact textarea {
+  width: 500px;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   padding: 12px 15px;
 }
-
+textarea #input_4.form-textarea {
+  width: 100%;
+}
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--color-primary);
@@ -996,7 +1024,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact form button[type="submit"] {
   background: #1f98d1;
   border: 0;
   border-radius: 25px;
@@ -1005,7 +1033,7 @@ section {
   transition: 0.4s;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact form button[type="submit"]:hover {
   background: var(--color-primary);
 }
 
