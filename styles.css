@@ -585,6 +585,15 @@ section {
   .why-us .slides {
     margin-top: -60%;
   }
+  .why-us h3 {
+    font-size: 18px;
+  }
+  .why-us h4 {
+    font-size: 16px;
+  }
+  .why-us .swiper-slide ul {
+    margin-left: -30px;
+  }
 }
 
 .page-about .why-us {
