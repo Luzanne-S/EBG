@@ -577,6 +577,14 @@ section {
   .why-us .swiper {
     margin: 40px 40px 20px 40px;
   }
+  .why-us .img-bg {
+    background-image: url("assets/image/whyUs-img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .why-us .slides {
+    margin-top: -60%;
+  }
 }
 
 .page-about .why-us {
