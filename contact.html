@@ -5,8 +5,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>EBG GROUP - Contact</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <meta content="Engineering Company" name="description" />
+    <meta
+      content="electrical, transformers, motors, contact details,"
+      name="keywords"
+    />
 
     <link
       rel="apple-touch-icon"
@@ -51,6 +54,80 @@
     <link href="assets/files/remixicon/remixicon.css" rel="stylesheet" />
 
     <link href="styles.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.37049"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.37049"
+      type="text/javascript"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"
+    ></script>
+    <script type="text/javascript">
+      JotForm.newDefaultTheme = false;
+      JotForm.extendsNewTheme = false;
+      JotForm.singleProduct = false;
+      JotForm.newPaymentUIForNewCreatedForms = false;
+      JotForm.clearFieldOnHide = "disable";
+
+      JotForm.init(function () {
+        /*INIT-START*/
+        if (window.JotForm && JotForm.accessible)
+          $("input_8").setAttribute("tabindex", 0);
+        if (window.JotForm && JotForm.accessible)
+          $("input_4").setAttribute("tabindex", 0);
+        /*INIT-END*/
+      });
+
+      JotForm.prepareCalculationsOnTheFly([
+        null,
+        null,
+        { name: "submit", qid: "2", text: "SUBMIT", type: "control_button" },
+        null,
+        {
+          name: "message4",
+          qid: "4",
+          text: "Message",
+          type: "control_textarea",
+        },
+        null,
+        null,
+        { name: "email", qid: "7", text: "E-mail", type: "control_email" },
+        {
+          name: "fullName",
+          qid: "8",
+          text: "Full Name",
+          type: "control_textbox",
+        },
+      ]);
+      setTimeout(function () {
+        JotForm.paymentExtrasOnTheFly([
+          null,
+          null,
+          { name: "submit", qid: "2", text: "SUBMIT", type: "control_button" },
+          null,
+          {
+            name: "message4",
+            qid: "4",
+            text: "Message",
+            type: "control_textarea",
+          },
+          null,
+          null,
+          { name: "email", qid: "7", text: "E-mail", type: "control_email" },
+          {
+            name: "fullName",
+            qid: "8",
+            text: "Full Name",
+            type: "control_textbox",
+          },
+        ]);
+      }, 20);
+    </script>
   </head>
 
   <body class="page-contact">
@@ -134,62 +211,195 @@
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
               <form
-                action="assets/contact.php"
+                class="jotform-form"
+                action="https://submit.jotform.com/submit/223134310588552/"
                 method="post"
-                role="form"
-                class="php-email-form"
+                name="form_223134310588552"
+                id="223134310588552"
+                accept-charset="utf-8"
+                autocomplete="on"
               >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
+                <input type="hidden" name="formID" value="223134310588552" />
+                <input type="hidden" id="JWTContainer" value="" />
+                <input type="hidden" id="cardinalOrderNumber" value="" />
+                <div role="main" class="form-all">
+                  <ul class="form-section page-section">
+                    <li class="form-line" data-type="control_textbox" id="id_8">
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input
+                          type="text"
+                          id="input_8"
+                          name="q8_fullName"
+                          data-type="input-textbox"
+                          class="form-control"
+                          data-defaultvalue=""
+                          size="25"
+                          value=""
+                          placeholder=" Your Name"
+                          data-component="textbox"
+                          aria-labelledby="label_8"
+                        />
+                      </div>
+                    </li>
+                    <li class="form-line" data-type="control_email" id="id_7">
+                      <div class="col-md-6 form-group mt-3">
+                        <input
+                          type="email"
+                          id="input_7"
+                          name="q7_email"
+                          class="form-control"
+                          data-defaultvalue=""
+                          size="25"
+                          value=""
+                          placeholder=" Your Email "
+                          data-component="email"
+                          aria-labelledby="label_7"
+                        />
+                      </div>
+                    </li>
+                    <li
+                      class="form-line"
+                      data-type="control_textarea"
+                      id="id_4"
+                    >
+                      <div class="form-group mt-3">
+                        <textarea
+                          class="form-control"
+                          name="q4_message4"
+                          cols="28"
+                          rows="6"
+                          placeholder="Your Message"
+                          data-component="textarea"
+                          aria-labelledby="label_4"
+                        ></textarea>
+                      </div>
+                    </li>
+                    <li
+                      class="form-line jf-required"
+                      data-type="control_captcha"
+                      id="id_10"
+                    >
+                      <div id="cid_10" class="form-input-wide jf-required">
+                        <section data-wrapper-react="true">
+                          <div
+                            id="recaptcha_input_10"
+                            data-component="recaptcha"
+                            data-callback="recaptchaCallbackinput_10"
+                            data-expired-callback="recaptchaExpiredCallbackinput_10"
+                          ></div>
+                          <input
+                            type="hidden"
+                            id="input_10"
+                            class="hidden validate[required]"
+                            name="recaptcha_visible"
+                            required=""
+                          />
+                          <script
+                            type="text/javascript"
+                            src="https://www.google.com/recaptcha/api.js?render=explicit&amp;onload=recaptchaLoadedinput_10"
+                          ></script>
+                          <script type="text/javascript">
+                            var recaptchaLoadedinput_10 = function () {
+                              window.grecaptcha.render(
+                                $("recaptcha_input_10"),
+                                {
+                                  sitekey:
+                                    "6LdU3CgUAAAAAB0nnFM3M3T0sy707slYYU51RroJ",
+                                }
+                              );
+                              var grecaptchaBadge =
+                                document.querySelector(".grecaptcha-badge");
+                              if (grecaptchaBadge) {
+                                grecaptchaBadge.style.boxShadow =
+                                  "gray 0px 0px 2px";
+                              }
+                            };
+
+                            /**
+                             * Called when the reCaptcha verifies the user is human
+                             * For invisible reCaptcha;
+                             *   Submit event is stopped after validations and recaptcha is executed.
+                             *   If a challenge is not displayed, this will be called right after grecaptcha.execute()
+                             *   If a challenge is displayed, this will be called when the challenge is solved successfully
+                             *   Submit is triggered to actually submit the form since it is stopped before.
+                             */
+                            var recaptchaCallbackinput_10 = function () {
+                              var isInvisibleReCaptcha = false;
+                              var hiddenInput = $("input_10");
+                              hiddenInput.setValue(1);
+                              if (!isInvisibleReCaptcha) {
+                                if (hiddenInput.validateInput) {
+                                  hiddenInput.validateInput();
+                                }
+                              } else {
+                                triggerSubmit(hiddenInput.form);
+                              }
+
+                              function triggerSubmit(formElement) {
+                                var button =
+                                  formElement.ownerDocument.createElement(
+                                    "input"
+                                  );
+                                button.style.display = "none";
+                                button.type = "submit";
+                                formElement.appendChild(button).click();
+                                formElement.removeChild(button);
+                              }
+                            };
+
+                            // not really required for invisible recaptcha
+                            var recaptchaExpiredCallbackinput_10 = function () {
+                              var hiddenInput = $("input_10");
+                              hiddenInput.writeAttribute("value", false);
+                              if (hiddenInput.validateInput) {
+                                hiddenInput.validateInput();
+                              }
+                            };
+                          </script>
+                        </section>
+                      </div>
+                    </li>
+                    <li class="form-line" data-type="control_button" id="id_2">
+                      <div id="cid_2" class="form-input-wide">
+                        <div
+                          style="text-align: center"
+                          data-align="center"
+                          class="form-buttons-wrapper form-buttons-center jsTest-button-wrapperField"
+                        >
+                          <button
+                            id="input_2"
+                            type="submit"
+                            class="form-submit-button form-submit-button-cool_grey_rounded submit-button jf-form-buttons jsTest-submitField"
+                            data-component="button"
+                            data-content=""
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li style="display: none">
+                      Should be Empty:
+                      <input type="text" name="website" value="" />
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
+
+                <input
+                  type="hidden"
+                  class="simple_spc"
+                  id="simple_spc"
+                  name="simple_spc"
+                  value="223134310588552"
+                />
+                <script type="text/javascript">
+                  var all_spc = document.querySelectorAll(
+                    "form[id='223134310588552'] .si" + "mple" + "_spc"
+                  );
+                  for (var i = 0; i < all_spc.length; i++) {
+                    all_spc[i].value = "223134310588552-223134310588552";
+                  }
+                </script>
               </form>
             </div>
           </div>
@@ -290,13 +500,33 @@
     ></a>
 
     <div id="preloader"></div>
-
+    <script>
+      JotForm.showJotFormPowered = "new_footer";
+    </script>
+    <script>
+      JotForm.poweredByText = "Powered by Jotform";
+    </script>
+    <input
+      type="hidden"
+      class="simple_spc"
+      id="simple_spc"
+      name="simple_spc"
+      value="223134310588552"
+    />
+    <script type="text/javascript">
+      var all_spc = document.querySelectorAll(
+        "form[id='223134310588552'] .si" + "mple" + "_spc"
+      );
+      for (var i = 0; i < all_spc.length; i++) {
+        all_spc[i].value = "223134310588552-223134310588552";
+      }
+    </script>
     <script src="assets/files/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/files/aos/aos.js"></script>
     <script src="assets/files/glightbox/js/glightbox.min.js"></script>
     <script src="assets/files/swiper/swiper-bundle.min.js"></script>
     <script src="assets/files/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/files/php-email-form/validate.js"></script>
+
     <script src="main.js"></script>
   </body>
 </html>
