@@ -770,6 +770,10 @@ section {
 .prasa {
   width: 200px;
 }
+.rand {
+  width: 170px;
+  margin-left: 7%;
+}
 .companiesDiv {
   margin: 5% 0 5% 40%;
 }
@@ -795,8 +799,16 @@ section {
   .companiesDiv {
     margin: 5% 0 5% 0%;
   }
+  .rand {
+    margin-top: 2%;
+  }
 }
 
+@media (min-width: 770px) and (max-width: 1025px) {
+  .companiesDiv {
+    margin: 5% 0 5% 0;
+  }
+}
 .companies .details {
   margin-top: 80px;
   padding: 120px 0;
