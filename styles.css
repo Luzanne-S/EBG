@@ -653,7 +653,8 @@ section {
   color: #38618e;
 }
 .wires,
-.motor {
+.motor,
+.transformer {
   height: 42vh;
 }
 .service-column {
