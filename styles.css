@@ -703,6 +703,42 @@ section {
   align-items: center;
   margin-top: 10%;
 }
+.services-catalogue {
+  text-align: center;
+}
+.services-catalogue h3 {
+  font-size: 35px;
+}
+.pdf1,
+.pdf2 {
+  margin-top: 50px;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--color-primary);
+}
+.pdf1 {
+  margin-right: 30px;
+}
+.pdf1:hover,
+.pdf2:hover {
+  background: rgba(86, 184, 230, 0.8);
+}
+@media (min-width: 900px) {
+  .pdf1,
+  .pdf2 {
+    margin-top: 5px;
+  }
+  .service-separator {
+    height: 100vh;
+  }
+}
 /*--------------------------------------------------------------
   # Call To Action Section
   --------------------------------------------------------------*/
@@ -717,11 +753,13 @@ section {
   background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)),
     url("assets/image/Power-transformer.jpg") center center;
   background-size: cover;
+  color: #f7f9fc;
   padding: 100px 0;
   height: 50vh;
 }
 @media (min-width: 1365px) {
-  .call-to-action {
+  .call-to-action,
+  .service-separator {
     background-attachment: fixed;
   }
 }
@@ -762,7 +800,9 @@ section {
 .companies {
   height: max-content;
 }
-
+.companies .row {
+  width: 100%;
+}
 .tshwane-img {
   width: 140px;
   height: auto;
@@ -776,7 +816,7 @@ section {
   margin-left: 7%;
 }
 .companiesDiv {
-  margin: 5% 0 5% 40%;
+  margin: 5% 0 5% 20%;
 }
 .companies h3 {
   color: var(--color-secondary);
